@@ -45,22 +45,31 @@ Takes room details and checks availability before booking.<br />
 2.Displays an initial message and waits for a key press to start.<br />
 3.Calls the menu() function to begin the interaction.<br />
 # Class Diagram: <br />
-   +----------------------------------+<br />
-   |              hostel              |<br />
-   +----------------------------------+<br />
-   | - room_number : int               |<br />
-   | - name : char[50]                 |<br />
-   | - address : char[50]              |<br />
-   | - phone_number : long int         |<br />
-   +----------------------------------+<br />
-   | + menu() : int                    |<br />
-   | + add_room() : int                |<br />
-   | + display_room() : int            |<br />
-   | + room_sel() : int                |<br />
-   | + edit_sel() : int                |<br />
-   | + check_avail(int) : int          |<br />
-   | + modify_room(int) : int          |<br />
-   | + delete_room(int) : int          |<br />
-   +----------------------------------+<br />
-   | - (helper functions)              |<br />
-   +----------------------------------+<br />
+  +------------------------------------+<br />
+  |              hostel                 |<br />
+  +------------------------------------+<br />
+  | - room_number: int                  |<br />
+  | - name: char[50]                    |<br />
+  | - address: char[50]                 |<br />
+  | - phone_number: char[50]            |<br />
+  +------------------------------------+<br />
+  | - add_room(): int                   |<br />
+  | - display_room(): int               |<br />
+  | - room_sel(): int                   |<br />
+  | - menu(): int                       |<br />
+  | - check_avail(int): int             |<br />
+  | - modify_room(int): int             |<br />
+  | - delete_room(int): int             |<br />
+  +------------------------------------+<br />
+                   △
+                   |
+                   |
+                   |
+                   |
+                   |
+                   |
+  +------------------------------------+<br />
+  |   menuclass (inherits from hostel)  |<br />
+  +------------------------------------+<br />
+  | - menu(): int (overrides)           |<br />
+  +------------------------------------+<br />
