@@ -79,7 +79,7 @@ int hostel::add_room()
     }
     else
     {
-        room_number;
+        room_number = r;
         cout<<"\n Enter your Name:\t ";
         cin>>name;
         cout<<"\n Enter Address:\t ";
@@ -105,7 +105,7 @@ int hostel::display_room()
     while(!fin.eof())
     {
         fin.read((char*)this,sizeof(*this));
-        if(room_number=r)
+        if(room_number==r)
         {
             cout<<"\n Here are the Student Details";
             cout<<"\n ****************************";
@@ -223,8 +223,8 @@ int hostel::delete_room(int r)
 {
     int flag=0;
     char ch;
-    ifstream fin("Record.txt, ios::in");
-    ofstream fout("temp.txt, ios::out");
+    ifstream fin("Record.txt", ios::in);
+    ofstream fout("temp.txt", ios::out);
     while(!fin.eof())
     {
         fin.read((char*)this,sizeof(*this));
