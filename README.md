@@ -44,32 +44,5 @@ Takes room details and checks availability before booking.<br />
 1.Creates an instance of hostel.<br />
 2.Displays an initial message and waits for a key press to start.<br />
 3.Calls the menu() function to begin the interaction.<br />
-# Class Diagram: <br />
-  +------------------------------------+<br />
-  |              hostel                 |<br />
-  +------------------------------------+<br />
-  | - room_number: int                  |<br />
-  | - name: char[50]                    |<br />
-  | - address: char[50]                 |<br />
-  | - phone_number: char[50]            |<br />
-  +------------------------------------+<br />
-  | - add_room(): int                   |<br />
-  | - display_room(): int               |<br />
-  | - room_sel(): int                   |<br />
-  | - menu(): int                       |<br />
-  | - check_avail(int): int             |<br />
-  | - modify_room(int): int             |<br />
-  | - delete_room(int): int             |<br />
-  +------------------------------------+<br />
-                   △<br />
-                   |<br />
-                   |<br />
-                   |<br />
-                   |<br />
-                   |<br />
-                   |<br />
-  +------------------------------------+<br />
-  |   menuclass (inherits from hostel)  |<br />
-  +------------------------------------+<br />
-  | - menu(): int (overrides)           |<br />
-  +------------------------------------+<br />
+# Class Diagram: <br >
+<img src="https://github.com/ayushimahajan295/Hostel-Management-System/assets/145414094/fc060f2e-d827-4185-bcdd-59d4fb55998b" alt="error">
