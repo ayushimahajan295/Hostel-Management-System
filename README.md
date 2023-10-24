@@ -1,6 +1,6 @@
-# Hostel-Management-System
+## Hostel-Management-System
 Hostel Management system addresses the common issue of Allocation faced by hostels for initial allocation of students. It uses a menu driven program to systematically help in the process.
-# Problem Statement:
+## Problem Statement:
 In a college or university, it's common to have a hostel or dormitory where students live during their
 academic years. Managing the accommodation for a large number of students efficiently can be
 challenging. The Hostel Accommodation Management System is designed to address this problem by
@@ -10,7 +10,7 @@ description of the problem it solves:
 ● Student Removal and Modification
 ● Displaying Student Details
 ● User Interface
-# Explanation:
+## Explanation:
 The Hostel Accommodation Management System is designed to manage student accommodations
 efficiently. It allows students to be added, modifying details, and later removing students from
 their allocated rooms if necessary. The system distinguishes between undergraduate and postgraduate
