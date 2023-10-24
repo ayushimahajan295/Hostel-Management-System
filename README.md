@@ -13,9 +13,8 @@ description of the problem it solves:<br />
 # Explanation:
 The Hostel Accommodation Management System is designed to manage student accommodations
 efficiently. It allows students to be added, modifying details, and later removing students from
-their allocated rooms if necessary. The system distinguishes between undergraduate and postgraduate
-students, keeping track of their names, roll numbers, branches, and the number of beds they have been
-assigned. It simplifies the management of hostel accommodations, ensuring efficient allocation and tracking of resources.
+their allocated rooms if necessary. The system distinguishes between students, keeping track of their names, roll numbers,
+address and phone number. It simplifies the management of hostel accommodations, ensuring efficient allocation and tracking of resources.
 The Hostel Accommodation Management System provides a software solution for managing student
 accommodations efficiently. It includes the following components:<br />
 This C++ program is a basic Hostel Management System. It consists of a class hostel that manages room bookings and student records.
@@ -61,13 +60,13 @@ Takes room details and checks availability before booking.<br />
   | - modify_room(int): int             |<br />
   | - delete_room(int): int             |<br />
   +------------------------------------+<br />
-                   △
-                   |
-                   |
-                   |
-                   |
-                   |
-                   |
+                   △<br />
+                   |<br />
+                   |<br />
+                   |<br />
+                   |<br />
+                   |<br />
+                   |<br />
   +------------------------------------+<br />
   |   menuclass (inherits from hostel)  |<br />
   +------------------------------------+<br />
