@@ -4,8 +4,9 @@ Hostel Management system addresses the common issue of Allocation faced by hoste
 In a college or university, it's common to have a hostel or dormitory where students live during their
 academic years. Managing the accommodation for a large number of students efficiently can be
 challenging. The Hostel Accommodation Management System is designed to address this problem by
-providing a software solution to manage student accommodations within a college hostel. Here’s the
-description of the problem it solves:<br />
+providing a software solution to manage student accommodations within a college hostel. It uses the concepts of OOPS in C++.
+It uses inheritance, polymorphism, abstraction and encapsulation.
+Here’s the description of the problem it solves:<br />
 ● Student Allocation<br />
 ● Student Removal and Modification<br />
 ● Displaying Student Details<br />
