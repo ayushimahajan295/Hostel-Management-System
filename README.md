@@ -5,11 +5,11 @@ In a college or university, it's common to have a hostel or dormitory where stud
 academic years. Managing the accommodation for a large number of students efficiently can be
 challenging. The Hostel Accommodation Management System is designed to address this problem by
 providing a software solution to manage student accommodations within a college hostel. Here’s the
-description of the problem it solves:
-● Student Allocation
-● Student Removal and Modification
-● Displaying Student Details
-● User Interface
+description of the problem it solves:\\
+● Student Allocation\\
+● Student Removal and Modification\\
+● Displaying Student Details\\
+● User Interface\\
 ## Explanation:
 The Hostel Accommodation Management System is designed to manage student accommodations
 efficiently. It allows students to be added, modifying details, and later removing students from
