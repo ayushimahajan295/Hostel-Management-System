@@ -73,7 +73,7 @@ int hostel::add_room()
 {
     system("cls");
     int r, flag;
-    ofstream fout("Record.txt", ios::app);
+    ofstream fout("Record.txt", ios::app);  //Write
     cout << "\n ***********************";
     cout << "\n Enter Student Details";
     cout << "\n ***********************";
@@ -106,7 +106,7 @@ int hostel::add_room()
 int hostel::display_room()
 {
     system("cls");
-    ifstream fin("Record.txt", ios::in);
+    ifstream fin("Record.txt", ios::in);   //Read
     int r;
     cout << "\n Enter your Room Number: ";
     cin >> r;
